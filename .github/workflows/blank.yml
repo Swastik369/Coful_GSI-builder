@@ -5,7 +5,6 @@ on:
  workflow_dispatch:
     
 env:
-  ROM_LINK: your rom's direct link
   ROM_LINK: https://dl.google.com/dl/android/aosp/barbet-ota-sq3a.220705.003.a1-cb621def.zip
   ROM_TYPE: Generic
   BUILD_AB: true
