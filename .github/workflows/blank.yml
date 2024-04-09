@@ -18,7 +18,7 @@ jobs:
     if: github.event.repository.owner.id == github.event.sender.id
     steps:
        - name: Repo fetching...
-         uses: actions/checkout@master
+         uses: actions/checkout@main
 
        - name: Clearing stuff...
          run: |
