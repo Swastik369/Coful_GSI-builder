@@ -16,11 +16,11 @@ env:
   ROM_AB: AB.7z
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     if: github.event.repository.owner.id == github.event.sender.id
     steps:
        - name: Repo fetching...
-         uses: actions/checkout@main
+         uses: actions/checkout@master
 
        - name: Clearing stuff...
          run: |
