@@ -3,8 +3,6 @@ name: Generic System Image Builder
 on:
 
  workflow_dispatch:
- 
-    types: [started]
     
 env:
   ROM_LINK: your rom's direct link
